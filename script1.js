@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
 
       xhr.open('GET', `https://spotify23.p.rapidapi.com/search/?q=${query}&type=multi&offset=0&limit=10&numberOfToptracksContainer=5`);
-      xhr.setRequestHeader('X-RapidAPI-Key', 'b0ea400babmshbda9aeed4002acbp10b42ejsnee7758357ab6');
+      xhr.setRequestHeader('X-RapidAPI-Key', '7befe44e8fmsh0a3191d986fbea8p1e3edcjsneb5d6c376b55');
       xhr.setRequestHeader('X-RapidAPI-Host', 'spotify23.p.rapidapi.com');
 
       xhr.send();
@@ -193,7 +193,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
 
       xhr.open('GET', `https://spotify23.p.rapidapi.com/search/?q=${query}&type=multi&offset=0&limit=10&numberOfToptracksContainer=5`);
-      xhr.setRequestHeader('X-RapidAPI-Key', 'b0ea400babmshbda9aeed4002acbp10b42ejsnee7758357ab6');
+      xhr.setRequestHeader('X-RapidAPI-Key', '7befe44e8fmsh0a3191d986fbea8p1e3edcjsneb5d6c376b55');
       xhr.setRequestHeader('X-RapidAPI-Host', 'spotify23.p.rapidapi.com');
 
       xhr.send();
